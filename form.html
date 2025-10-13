@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="boxx">
+ <div class="tophead">Student Registration Form</div>
+ <form>
+
+ <!-- names lol -->
+ <div class="rowy">
+  <div>
+   <label>First Name</label>
+   <input type="text" placeholder="Enter first name">
+  </div>
+  <div>
+   <label>Last Name</label>
+   <input type="text" placeholder="Enter last name">
+  </div>
+ </div>
+
+ <!-- dob -->
+ <label>Date of Birth</label>
+ <div class="rowy">
+  <select><option>Day</option></select>
+  <select><option>Month</option></select>
+  <select><option>Year</option></select>
+ </div>
+
+ <!-- email n mobile -->
+ <div class="rowy" style="margin-top:20px;"> <!-- added more space -->
+  <div>
+   <label>Email ID</label>
+   <input type="email" placeholder="Enter email address">
+  </div>
+  <div>
+   <label>Mobile Number</label>
+   <input type="text" placeholder="Enter 10-digit mobile number">
+  </div>
+ </div>
+
+ <!-- gender -->
+ <label>Gender</label>
+ <input type="radio" name="g"> Male
+ <input type="radio" name="g"> Female
+
+ <!-- address -->
+ <label>Address</label>
+ <input type="text" placeholder="Enter your full address">
+
+ <div class="rowy">
+  <div><label>City</label><input type="text" placeholder="Enter city"></div>
+  <div><label>PIN Code</label><input type="text" placeholder="Enter 6-digit PIN code"></div>
+  <div><label>State</label><input type="text" placeholder="Enter state"></div>
+ </div>
+
+ <label>Country</label>
+ <select><option>Select country</option></select>
+
+ <!-- hobbies -->
+ <label>Hobbies</label>
+ <div class="hobbies">
+  <input type="checkbox"> Drawing
+  <input type="checkbox"> Singing
+  <input type="checkbox"> Dancing
+  <input type="checkbox"> Sketching
+  <input type="checkbox"> Others
+ </div>
+  
+ <!-- qualification -->
+ <label >Qualification</label>
+ <table class="background">
+  <tr><th>Sr.No</th><th>Examination</th><th>Board</th><th>Percentage</th><th>Year</th></tr>
+  <tr><td>1</td><td>Class X</td><td><input></td><td><input></td><td><input></td></tr>
+  <tr><td>2</td><td>Class XII</td><td><input></td><td><input></td><td><input></td></tr>
+  <tr><td>3</td><td>Graduation</td><td><input></td><td><input></td><td><input></td></tr>
+  <tr><td>4</td><td>Masters</td><td><input></td><td><input></td><td><input></td></tr>
+ </table>
+ 
+
+ <!-- course -->
+ <label>Courses Applied For</label>
+ <div class="courses">
+  <input type="radio" name="c"> BCA
+  <input type="radio" name="c"> B.Com
+  <input type="radio" name="c"> B.Sc
+  <input type="radio" name="c"> B.A
+ </div>
+
+ <!-- buttons yay -->
+ <div class="btns">
+  <button type="reset">Reset</button>
+  <button type="submit">Submit</button>
+ </div>
+
+ </form>
+</div>
+</body>
+</html>
